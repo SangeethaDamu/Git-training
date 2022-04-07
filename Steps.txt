@@ -1,0 +1,86 @@
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing (master)
+$ git config --global user.name "SangeethaDamu"
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing (master)
+$ git config --global user.email "sangeetha.d@cmrit.ac.in"
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing (master)
+$ git clone https://github.com/SangeethaDamu/Git-training.git
+Cloning into 'Git-training'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing (master)
+$ ls -a
+./  ../  Git-training/
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing (master)
+$ cd Git training
+bash: cd: too many arguments
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing (master)
+$ cd Git-training
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing/Git-training (main)
+$ Is
+bash: Is: command not found
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing/Git-training (main)
+$ ls
+README.md
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing/Git-training (main)
+$ notepad
+
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing/Git-training (main)
+$
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing/Git-training (main)
+$ cat Git-training
+cat: Git-training: No such file or directory
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing/Git-training (main)
+$ cat readme
+cat: readme: No such file or directory
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing/Git-training (main)
+$ catREADME.md
+bash: catREADME.md: command not found
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing/Git-training (main)
+$ cat README.md
+This file is just a test while learning Github# Git-training
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing/Git-training (main)
+$ notepad
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing/Git-training (main)
+$ git ststus
+git: 'ststus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing/Git-training (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.c
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing/Git-training (main)
+$ git add  .
+
+cmrit@DESKTOP-SB985JH MINGW64 ~/Desktop/Git trianing/Git-training (main)
+$
